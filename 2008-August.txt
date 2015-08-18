@@ -1,0 +1,53 @@
+From joh at berlios.de  Fri Aug 29 11:13:00 2008
+From: joh at berlios.de (joh at berlios.de)
+Date: Fri, 29 Aug 2008 11:13:00 +0200
+Subject: [Cutefig-svn] r156 - in trunk: gui_app kernel
+Message-ID: <200808290913.m7T9D0Zs005887@sheep.berlios.de>
+
+Author: joh
+Date: 2008-08-29 11:12:59 +0200 (Fri, 29 Aug 2008)
+New Revision: 156
+
+Modified:
+   trunk/gui_app/createaction.cc
+   trunk/gui_app/createaction.h
+   trunk/gui_app/groupungroup.cc
+   trunk/gui_app/objectdialog.h
+   trunk/gui_app/rectangloiddialog.cc
+   trunk/gui_app/textaction.cc
+   trunk/gui_app/textobjectdialog.cc
+   trunk/kernel/arc.cc
+   trunk/kernel/arc.h
+   trunk/kernel/bezierspline.cc
+   trunk/kernel/bezierspline.h
+   trunk/kernel/cfigoutput.cc
+   trunk/kernel/compound.cc
+   trunk/kernel/compound.h
+   trunk/kernel/drawobject.cc
+   trunk/kernel/drawobject.h
+   trunk/kernel/ellipse.cc
+   trunk/kernel/ellipse.h
+   trunk/kernel/keywords.h
+   trunk/kernel/objecthandler.h
+   trunk/kernel/parser.cc
+   trunk/kernel/polygon.cc
+   trunk/kernel/polygon.h
+   trunk/kernel/polyline.cc
+   trunk/kernel/polyline.h
+   trunk/kernel/rectangle.cc
+   trunk/kernel/rectangle.h
+   trunk/kernel/rectangloid.cc
+   trunk/kernel/rectangloid.h
+   trunk/kernel/textobject.cc
+   trunk/kernel/textobject.h
+Log:
+* Fixed #include problem in objectdialog.
+* DrawObjects don't know their figure anymore.
+
+Diff is a bit too long, therefore it is skipped. Use
+
+  svn diff svn://svn.berlios.de/cutefig/ -r 155:156
+
+to see it.
+
+
